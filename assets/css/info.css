@@ -1,0 +1,9 @@
+body {
+    background-color: #1d1d1d;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    padding: 0;
+  
+    justify-content: center;
+    align-items: center;
+  }
