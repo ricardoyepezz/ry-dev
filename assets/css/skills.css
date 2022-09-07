@@ -14,9 +14,22 @@ body {
   margin-top: 200px;
 }
 
+@media screen and (max-width: 767px) {
+  .container {
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+  }
+}
+
 .container .card {
   position: relative;
+  background-color: #1d1d1d;
+  border: none;
+
 }
+
+
 
 .container .card .face {
   width: 300px;
