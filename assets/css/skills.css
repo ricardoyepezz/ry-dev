@@ -3,7 +3,6 @@ body {
   font-family: "Open Sans", sans-serif;
   display: flex;
   padding: 0;
-
   justify-content: center;
   align-items: center;
 }
@@ -11,10 +10,10 @@ body {
 .container {
   display: flex;
   justify-content: space-between;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1400px) {
   .container {
     flex-direction: column;
     margin: auto;
@@ -26,10 +25,7 @@ body {
   position: relative;
   background-color: #1d1d1d;
   border: none;
-
 }
-
-
 
 .container .card .face {
   width: 300px;
@@ -48,21 +44,36 @@ body {
   transform: translateY(100px);
 }
 
-.container .card:hover .face.face1 {
-  transform: translateY(0);
-  box-shadow: #00d4ff 0px 5px 15px;
-
-}
-
 .container .card .face.face1 .content {
-  opacity: 0.2;
+  opacity: 0.8;
   transition: 0.5s;
   text-align: center;
 }
 
-.container .card:hover .face.face1 .content {
-  opacity: 1;
+
+/* ------------------------------------------------------------------------- HOVER */
+
+.container .card:hover .face.face1 {
+  transform: translateY(0);
+  box-shadow:   white 0px 0px 15px;
 }
+
+.container .card:hover .face.face1 .content .fa-html5 {
+  color: #f06529;
+}
+
+.container .card:hover .face.face1 .content .fa-js {
+  color: #f0db4f;
+}
+
+.container .card:hover .face.face1 .content .fa-react {
+  color: #61DBFB;
+}
+
+.container .card:hover .face.face1 .content .fa-python {
+  color: #FFD43B;
+}
+
 
 .container .card .face.face1 .content i {
   font-size: 3em;
@@ -173,7 +184,6 @@ a {
   backdrop-filter: blur(5px);
   position: absolute;
   text-decoration: none;
-
 }
 .about .social {
   opacity: 0;
