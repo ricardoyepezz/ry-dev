@@ -7,6 +7,11 @@ body {
   align-items: center;
 }
 
+body a {
+  text-decoration: none;
+  color: white;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
