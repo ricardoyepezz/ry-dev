@@ -1,63 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ricardo Yepez</title>
-  <link href="assets/img/favicon.png" rel="icon" />
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link href="assets/scss/style.css" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Ricardo Yepez - About</title>
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/css/about.css" rel="stylesheet" />
 
-   
-<!-- about -->
-<div class="about">
-   <a class="bg_links social github icon" href="https://github.com/ricardoyepezz/" target="_blank">
-      <i class="fa fa-github"></i>
-   </a>
-   <a class="bg_links social linkedin icon" href="https://www.linkedin.com/in/ricardoyepez/" target="_blank">
-    <i class="fa fa-linkedin"></i>
-   </a>
-   <a class="bg_links material-icons md-36">add</a>
-</div>
-<!-- end about -->
-   
-   <div class="content">
-      <!-- card -->
-      <a href="skills.html" class="card">
-         
-            <div class="icon"><i class="material-icons md-36">school</i></div>
-            <p class="title">Conocimientos</p>
-            <p class="text">Click para las tecnologías que manejo</p>
-         
-      </a>
-      <!-- end card -->
-      <!-- card -->
-      <a href="projects.html" class="card">
-         
-            <div class="icon boxes"><i class="material-icons md-36">code</i></div>
-            <p class="title">Proyectos</p>
-            <p class="text">Click para ver un poco de mi experiencia y proyectos</p>
-         
-      </a>
-      <!-- end card -->
-      <!-- card -->
-      <a href="about.html" class="card">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+        <div class="container mt-5">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-7">
+            <div class="card p-3 py-4">
+                <div class="text-center">
+                <img
+                    src="/assets/img/avatar.png"
+                    width="100"
+                    class="rounded-circle"
+                />
+                </div>
 
-         
-            <div class="icon"><i class="material-icons md-36">insights</i></div>
-            <p class="title">Sobre Mi</p>
-            <p class="text">Algunos enlaces interesantes que me sirvieron en mi búsqueda.</p>
-         
-      </a>
-      <!-- end card -->
-   
+                <div class="text-center mt-3">
+                
+                <h5 class="mt-2 mb-0">Ricardo Yepez</h5>
+                <span>Front End Developer</span>
 
-   
-   </div>
-</div>
-</body>
+                <div class=" mt-3">
+                    <p>
+                    I started my path to become a web developer almost 1 year ago
+                    and I have managed to acquire knowledge through web courses,
+                    and recently I have taken a full stack bootcamp where I have
+                    been able to learn new technologies and enhance others.
+                    </p>
+
+                    <p>
+                        Currently I am still learning, but this time through a program designed by Oracle and Alura called Oracle Next Education, where I am reinforcing front end knowledge and learning Java 😉
+                    </p>
+                </div>
+
+                <ul class="social-list">
+                    <li><a
+                        href="https://github.com/ricardoyepezz/"
+                        target="_blank"
+                    >
+                        <i class="fa fa-github"></i>
+                    </a></li>
+                    <li><a
+                        href="https://www.linkedin.com/in/ricardoyepez/"
+                        target="_blank"
+                    >
+                        <i class="fa fa-linkedin"></i>
+                    </a></li>
+                </ul>
+
+                <div class="buttons">
+                    <a href="projects.html" class="btn btn-outline-primary px-4">Projects</a>
+                    <a href="skills.html" class="btn btn-outline-primary px-4">Technologies</a>
+                    <!-- <a class="btn btn-primary px-4">Contact</a> -->
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+  </body>
 </html>
